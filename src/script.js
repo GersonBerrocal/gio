@@ -1,9 +1,3 @@
-const log = document.getElementById('log')
-function clog(data) {
-  log.innerHTML = data
-}
-
-let isMobile = false
 const inputFile = document.getElementById('inputFile')
 const fileName = document.getElementById('fileName')
 const countCell = document.getElementById('countCell')
@@ -13,9 +7,7 @@ const fileInfo = document.getElementById('fileInfo')
 // eslint-disable-next-line no-undef
 const socket = io()
 
-if (/android/i.test(navigator.userAgent)) {
-  isMobile = true
-}
+btnSubir.setAttribute('disabled', 'disabled')
 
 inputFile.addEventListener('change', () => {
   if (inputFile.files.length) {
