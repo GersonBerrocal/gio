@@ -1,0 +1,57 @@
+:root {
+  --icon-width: 30px;
+}
+.text-center {
+  text-align: center;
+}
+
+.br-2 {
+  border-radius: 0.75rem;
+}
+.icon,
+.fas {
+  display: inline-block;
+  height: var(--icon-width);
+  width: var(--icon-width);
+  background-size: contain;
+}
+.icon-computer {
+  background-image: url('/img/imac.png');
+}
+.icon-cell {
+  background-image: url('/img/cell-phone.png');
+}
+.text-bold {
+  font-weight: bold;
+}
+.file {
+  max-width: max-content;
+  margin: 0 auto;
+}
+.fa-book {
+  background-image: url('/img/book.svg');
+  background-repeat: no-repeat;
+  background-size: 18px;
+}
+.panelArchivos {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.oy-auto {
+  overflow-y: auto;
+}
+
+.countD {
+  gap: 0.5em;
+}
+@media screen and (max-width: 770px) {
+  .countD {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .countD > div {
+    max-width: 300px !important;
+    width: 100% !important;
+  }
+}

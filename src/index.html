@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/bulma/bulma.css" />
+    <title>Gio</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-3 title is-1 text-center">GIO</h1>
+      <div class="section">
+        <div class="columns is-centered countD is-mobile">
+          <div
+            class="
+              column
+              has-background-primary has-text-primary-light
+              is-one-fifth
+              br-2
+              is-full-mobile
+            "
+          >
+            <p>Computadoras</p>
+            <p>
+              <span class="icon icon-computer mr-3"></span
+              ><span class="is-size-3 text-bold" id="countComputer">2</span>
+            </p>
+          </div>
+          <div
+            class="
+              column
+              has-background-primary has-text-primary-light
+              is-one-fifth
+              br-2
+              is-full-mobile
+            "
+          >
+            <p>Celulares</p>
+            <p>
+              <span class="icon icon-cell mr-3"></span
+              ><span class="text-bold is-size-3">1</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section my-1 py-3 is-centered text-center">
+        <div class="file has-name is-boxed is-primary">
+          <label class="file-label">
+            <input
+              class="file-input"
+              type="file"
+              name="resume"
+              id="inputFile"
+            />
+            <span class="file-cta">
+              <span class="file-icon">
+                <i class="fas fa-upload"></i>
+              </span>
+              <span class="file-label"> Subir archivo… </span>
+            </span>
+            <span class="file-name" id="fileName"> ... </span>
+          </label>
+        </div>
+        <button class="button is-outlined my-2 is-danger is-outlined" disabled>
+          Subir
+        </button>
+      </div>
+      <div class="section">
+        <nav class="panel panelArchivos">
+          <p class="panel-heading">Archivos</p>
+          <div class="panel-block">
+            <p class="control has-icons-left">
+              <input class="input" type="text" placeholder="Search" />
+              <span class="icon is-left">
+                <i class="fas fa-search" aria-hidden="true"></i>
+              </span>
+            </p>
+          </div>
+          <p class="panel-tabs oy-auto">
+            <a class="is-active">Todos</a>
+            <a>Documentos</a>
+            <a>Imágenes</a>
+            <a>Videos</a>
+            <a>Otros</a>
+          </p>
+          <a class="panel-block is-active">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            bulma
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            marksheet
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            minireset.css
+          </a>
+          <a class="panel-block">
+            <span class="panel-icon">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </span>
+            jgthms.github.io
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div class="section" id="log"></div>
+    <script src="/script.js"></script>
+  </body>
+</html>
