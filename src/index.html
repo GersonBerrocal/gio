@@ -45,15 +45,10 @@
           </div>
         </div>
       </div>
-      <div class="section my-1 py-3 is-centered text-center">
+      <form class="section my-1 py-3 is-centered text-center" id="formFile">
         <div class="file has-name is-boxed is-primary">
           <label class="file-label">
-            <input
-              class="file-input"
-              type="file"
-              name="resume"
-              id="inputFile"
-            />
+            <input class="file-input" type="file" name="file" id="inputFile" />
             <span class="file-cta">
               <span class="file-icon">
                 <i class="fas fa-upload"></i>
@@ -71,7 +66,7 @@
         >
           Subir
         </button>
-      </div>
+      </form>
       <div class="section">
         <nav class="panel panelArchivos">
           <p class="panel-heading">Archivos</p>
@@ -90,30 +85,7 @@
             <a>Videos</a>
             <a>Otros</a>
           </p>
-          <a class="panel-block is-active">
-            <span class="panel-icon">
-              <i class="fas fa-book" aria-hidden="true"></i>
-            </span>
-            bulma
-          </a>
-          <a class="panel-block">
-            <span class="panel-icon">
-              <i class="fas fa-book" aria-hidden="true"></i>
-            </span>
-            marksheet
-          </a>
-          <a class="panel-block">
-            <span class="panel-icon">
-              <i class="fas fa-book" aria-hidden="true"></i>
-            </span>
-            minireset.css
-          </a>
-          <a class="panel-block">
-            <span class="panel-icon">
-              <i class="fas fa-book" aria-hidden="true"></i>
-            </span>
-            jgthms.github.io
-          </a>
+          <div id="containerFiles" class="py-2"></div>
         </nav>
       </div>
     </div>
